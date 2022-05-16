@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Primeiro from './components/Primeiro';
+import BomDia from './components/BomDia';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Primeiro/>
+    <BomDia name="Anne" />
   </React.StrictMode>
 );
 

@@ -5,6 +5,8 @@ import reportWebVitals from './reportWebVitals';
 import Primeiro from './components/Primeiro';
 import BomDia from './components/BomDia';
 import { BoaTarde, BoaNoite } from "./components/Multiplos.jsx"
+import Saudacao from './components/Saudacoes';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,8 +15,13 @@ root.render(
     <BomDia name="Anne" />
     <BoaTarde name="Anne" />
     <BoaNoite name="Anne" />
+    <Saudacao tipo="Bom dia" nome="João" />
   </React.StrictMode>
 );
+
+//import {Saudacao} from './components/Saudacoes.jsx'
+//<Saudacao tipo="Bom dia" nome="João" />
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

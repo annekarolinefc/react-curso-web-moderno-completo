@@ -6,6 +6,7 @@ import Primeiro from './components/Primeiro';
 import BomDia from './components/BomDia';
 import { BoaTarde, BoaNoite } from "./components/Multiplos.jsx"
 import Saudacao from './components/Saudacoes';
+import Pai from './components/Pai';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,6 +17,9 @@ root.render(
     <BoaTarde name="Anne" />
     <BoaNoite name="Anne" />
     <Saudacao tipo="Bom dia" nome="João" />
+    <br/>
+    <p>Componente Pai e Filho</p>
+    <Pai nome="Luiz Carlos" sobrenome="do Carmo"/>
   </React.StrictMode>
 );
 

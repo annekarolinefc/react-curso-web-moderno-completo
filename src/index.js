@@ -4,12 +4,15 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Primeiro from './components/Primeiro';
 import BomDia from './components/BomDia';
+import { BoaTarde, BoaNoite } from "./components/Multiplos.jsx"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Primeiro/>
     <BomDia name="Anne" />
+    <BoaTarde name="Anne" />
+    <BoaNoite name="Anne" />
   </React.StrictMode>
 );
 
